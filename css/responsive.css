@@ -1,0 +1,156 @@
+/* Responsive For Mobile */
+@media screen and (max-width: 500px){
+
+	.banner-bg{
+		background: url(../images/banner.png) no-repeat center;
+		background-size: cover;
+	}
+	.img-fluid {
+	    margin: 0px 0px 0px -12px;
+	}
+	.navbar-light .navbar-toggler {
+	    background: #fff;
+	    margin: 0 auto;
+	}
+	.banner-content {
+    	padding: 50px 0;
+	}
+	.controller {
+	    padding-bottom: 40px;
+	    margin: 0px 0px 0px 54px;
+	}
+	.about h2 {
+	    font-weight: 600;
+	    text-align: center;
+	    width: 100%;
+	}
+	.about h4 {
+	    text-align: center;
+	    width: 100%;
+	}
+	.about p {
+	    width: 100%;
+	    text-align: center;
+	}
+	button, select {
+	    margin: 0 auto;
+	    display: block;
+	}
+	.about .div {
+	    width: 40%;
+	    margin: 0 auto 40px;
+	}
+	.vdo iframe {
+	    margin: 0 auto;
+	    width: 100%;
+	}
+	.Constructing-Section img {
+	    width: 100%;
+	    height: 100%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.Constructing-Section h2 {
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 50px;
+	}
+	.Constructing-Section h4 {
+	    text-align: center;
+	}
+	.Constructing-Section p {
+	    width: 100%;
+	    text-align: center;
+	}
+	.Constructing-Section .div {
+	    width: 42%;
+	    margin: 0 auto;
+	    display: block;
+	}
+	.contact-now p {
+	    text-align: center;
+	}
+	.btn-warning {
+		display: block;
+		margin: 10px auto 25px;
+    }
+    .services-section h2 {
+    	font-size: 27px;
+	}
+	.services-section h4 {
+	    width: 100%;
+	}
+	.custom h5 {
+	    margin-left: -4px;
+	}
+	.custom p {
+	    margin-left: -4px;
+	}
+	.counter-section {
+	    padding: 60px 0px;
+	}
+	.counter-section h2 { 
+	    font-size: 38px; 
+	}
+	.vido iframe {
+	    width: 100%;
+	    display: block;
+	    margin: 0 auto 2px;
+	}
+	.consulting h2 {
+	    width: 100%;
+	    text-align: center;
+	    margin: 50px 0px 0px 0px;
+	}
+	.consulting h4 {
+	    text-align: center;
+	    width: 100%;
+	}
+	.consulting p {
+	    width: 100%;
+	    text-align: center;
+	}
+	.consulting .div {
+	    width: 41%;
+	    margin: -2px 0px 0px 85px;
+	}
+	.testimonial-section {
+	    padding: 75px 0px;
+	}
+	.contact-with-us-sections {
+	    padding: 75px 0px;
+	}
+	.contact-with-us-sections h2 {  
+	    font-size: 29px;
+	}
+	.contact-with-us-sections h4 {
+	    width: 100%;
+	}
+	.contact-with-us-sections {
+	    padding-top: 75px;
+	    margin-bottom: -45px;
+	}
+	.footer-section p {
+	    text-align: center;
+	}
+	.foter-social-menu {
+	    text-align: center;
+	}
+
+
+
+
+
+/* Responsive For Tablet */
+@media (min-width: 501px) and (max-width: 768px){
+	
+
+
+}
+
+/* Responsive For Notebook */
+@media (min-width: 769px) and (max-width: 990px){
+	
+
+
+}

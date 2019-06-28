@@ -1,0 +1,459 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+/* Global CSS */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333333;	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	color: #333333;		
+}
+a{
+	color:#fde52c;
+}
+a:hover{
+	text-decoration: none;
+	color:#fde52c;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+	padding: 0;
+}
+
+/* Modal Section CSS */
+.modal.show .modal-dialog {
+    margin-top: 150px;
+}
+.modal-content {
+    background-color: transparent;
+}
+.modal-body{
+	background-color: #fff;
+	border-radius: 5px;
+}
+.modal-body h1{
+	color: #de2e45;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.modal-body p{
+	text-align: center;
+	color: #a6a6a6;
+}
+.btn-modal{
+	background-color: #de2e45;
+	color: #fff;
+	display: block;
+	margin: 50px auto 10px;
+	padding: 12px 25px;
+	transition: 0.4s ease-in-out;
+}
+.btn-modal:hover{
+	background: #fde52c;
+	border: 1px solid #fde52c;
+}
+.modal-logo {
+    width: 200px;
+    height: 200px;
+    margin: -125px auto 50px;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #eee;
+    background-color: #fff;
+}
+
+/* Header Section CSS */
+.banner-bg{
+	background: url(../images/banner.png) no-repeat center;
+	background-size: cover;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fde428;
+}
+#navbarDropdown{
+	margin-top: -5px;
+}
+.dropdown-menu {
+    color: #fff;
+    background-color: #002e5b;
+    border: 1px solid #002e5b;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.banner-content{
+	padding: 100px 0;
+}
+.controller{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.controller ul{
+	padding: 0;
+}
+.controller ul li{
+	color: #fff;
+	list-style: none;
+	display: inline;
+	padding: 0 7px;
+	position: relative;
+	color: #fde428;
+}
+.fa-long-arrow-left{
+	margin-right: 5px;
+}
+.fa-long-arrow-right{
+	margin-left: 5px;
+}
+.prv::after{
+	content: "/";
+	position: absolute;
+	padding: 0 6px;
+}
+.banner-box{
+	background: url(../images/banner-shape.png) no-repeat center;
+	padding: 80px 0px;
+}
+.banner-box h1{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	margin-bottom: 45px;
+}
+.banner-box a{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-left: 80px;
+}
+.banner-box .banner-bord{
+	border: 1px solid yellow;
+    width: 144px;
+    margin-left: 71px;
+}
+
+
+/* About Section CSS Start */
+.about-section{
+	background: url(../images/vdo-bg-1.png) no-repeat center;
+	padding: 75px 0px;
+}
+.about h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 84%;
+    text-align: left;
+}
+.about h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.about p{
+	width: 106%;	
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+.vdo iframe{
+	margin: 0px 0px 0px 65px;
+}
+
+/* Constructing Section CSS Start */
+.Constructing-Section{
+	background: #f4f4f4;
+	padding: 75px 0px;
+}
+.Constructing-Section img{
+	width: 500px;
+	height: 477px;
+}
+.Constructing-Section h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 84%;
+    text-align: left;
+}
+.Constructing-Section h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.Constructing-Section p{
+	width: 115%;
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Constructing-Section .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+
+/* Contact Now Section CSS Start */
+.contact-now{
+	padding: 35px 0px;
+	background: #002e5b;
+}
+.contact-now p{
+	color: #ffffff;
+	margin-top: 10px;
+}
+.btn-warning {
+    color: #002e5b;
+    background-color: #fde428;
+    border-color: #fde428;
+    text-align: right;
+    font-weight: 600;
+    display: inline;
+    margin: 0px 0px 0px 392px;
+    transition: 0.4s ease-in-out;
+}
+.btn-warning:hover{
+	background: #f49f77;
+	border-color: #f49f77; 
+}
+.contact-now p {
+    width: 100%;
+}
+
+
+/* Services Section CSS Start */
+.services-section{
+	padding: 75px 0px;
+}
+.services-section h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.services-section h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+}
+.card-title {
+    color: #002e5b;
+    font-size: 21px;
+}
+.card-img-top {
+    height: 232px;
+}
+.card-text:last-child {
+    width: 100%;
+}
+.card { 
+    border: none;
+}
+.custom h5{
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: -19px;
+}
+.custom p{
+	margin-left: -19px;
+}
+.nam{
+	margin-top: 40px;
+}    
+
+
+/* Counter Section CSS Start */
+.counter-section{
+	background: #002e5b;
+	padding: 120px 0px;
+}
+.counter-section h2{
+	color: #ffffff;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.counter-section p{
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+/* Consulting Section CSS Start */
+.consulting-section{
+	background: url(../images/video-bg.png) no-repeat center;
+	padding: 75px 0px;
+}
+.consulting h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 90%;
+    text-align: left;
+}
+.consulting h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.consulting p{
+	width: 106%;	
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.consulting .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+.vido {
+    margin: 10px 0px 0px -28px;
+}
+
+
+/* Testimonial Section CSS Start */
+.testimonial-section{
+	padding: 125px 0px;
+	background: #062747;
+}
+.testimonial-section .fa{
+	color: #ffffff;
+	font-size: 35px;
+	display: block;
+	text-align: center;
+}
+.testimonial-section p{
+	color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    width: 87%;
+    margin: 0 auto;
+}
+.testimonial-section h4{
+	color: #ffffff;
+	padding-top: 50px;
+	font-size: 35px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+/* contact with us sections CSS Start */
+.contact-with-us-sections{
+	padding: 100px 0px;
+}
+.contact-with-us-sections h2{
+	color: #062441;
+	font-size: 31px;
+	text-align: center;
+	font-weight: 600;
+}
+.contact-with-us-sections h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+}
+.card-title {
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 700;
+}
+.map-1{
+	margin-top: 50px;
+}
+.map-1 .fa{
+	color: #062442;
+}
+.contact-now p {
+    color: #ffffff;
+    width: 100%;
+}
+
+
+/* Footer sections CSS Start */
+.footer-section{
+	padding: 32px 0px;
+	background: #062442;
+}
+.footer-section p{
+	color: #ffffff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.foter-social-menu{
+	text-align: right;
+	margin-top: 20px;
+}
+.foter-social-menu ul{
+	padding: 0;
+}
+.foter-social-menu ul li{
+	list-style-type: none;
+	display: inline;
+	color: #ffffff;
+	margin: 0px 7px;
+}
+.foter-social-menu .fa{
+	color: #ffffff;
+}
